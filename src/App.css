@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mainportion {
+  background: #d1e9ff;
+}
+.message {
+  background-color: var(--light);
+  padding: 10px;
+}
+
+.right {
+  background: aliceblue;
+  margin-top: 5px;
+  float: right;
+  clear: both;
+  max-width: 200px;
+  min-width: 200px;
+  /* overflow: auto; */
+}
+.left {
+  float: left;
+  clear: both;
+  background: aliceblue;
+  margin-top: 5px;
+  max-width: 200px;
+  min-width: 200px;
+  /* overflow: auto; */
+}
+
+.sendchat {
+  display: flex;
+}
+#send-container {
+  text-align: center;
+  /* display: block;
+  margin: auto; */
+}
+.chatappbox {
+  min-height: 80vh;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+.mainform {
+  margin-top: 20px;
+}
+.handlehead {
+  background-color: aliceblue;
+}
+.logincard {
+  max-width: 400px;
+  min-width: 400px;
+}
+.loginPage {
+  min-height: 100vh;
+  background-color: var(--light);
+}
+.logincontain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.handlechatview_left {
+  max-width: 45%;
+  float: left;
+  clear: both;
+  text-align: start;
+  padding: 5px 20px 5px 10px;
+  overflow-wrap: anywhere;
+  background: lightgrey;
+  color: #fff;
+  margin-bottom: 10px !important;
+  margin-left: 10px !important;
+  border-radius: 10px;
+}
+
+.handlechatview_right {
+  max-width: 45%;
+  margin-bottom: 10px !important;
+  float: right;
+  clear: both;
+  padding: 5px 20px 5px 10px;
+  text-align: end;
+  overflow-wrap: anywhere;
+  margin-right: 10px !important;
+  color: #fff;
+  background: lightgrey;
+  border-radius: 10px ;
+}
+.softstormweb-header_1 {
+  padding-top: 0px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  background: #c7c7c7 !important;
+}
+.handle_roomlist {
+  min-height: 95vh;
+  top: 47px;
+  position: absolute;
+  left: 0;
+  top: 10;
+  right: 0;
+  z-index: 1000;
+  color: #fff;
+  background: #eaffef !important;
+}
+.handlelistofchat {
+  min-height: 40px;
+    padding: 10px 0 10px 10px;
+    cursor: pointer;
+}
+.handle_chat {
+  min-height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 10;
+    right: 0;
+    z-index: 1000;
+    background: #f8f9fa !important;
+}
+.handleInput_chat {
+  position: absolute;
+  bottom: 0;
+}
+.handleemptychat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signupcss {
+  display: flex !important;
+  justify-content: end;
+}
+.msgcontainer {
+  max-height: 84vh;
+  min-height: 75vh;
+  overflow: auto;
+}
+.handlehover:hover {
+  background-color: #c7c7c7;
+}
